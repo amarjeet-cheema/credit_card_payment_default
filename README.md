@@ -5,4 +5,4 @@
 Deployed at: https://credit-card-payment-default.herokuapp.com/
 
 • If you are searching for __Code__, __Algorithms used__ and __Accuracy__ of the model.. you won't find it here. Click the link mentioned below for the same:<br />
-Link: _https://github.com/anujvyas/Machine-Learning-Projects/tree/master/Diabetes%20Prediction_
+Link: https://github.com/amarjeet-cheema
