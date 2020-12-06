@@ -22,10 +22,10 @@
 
 		<!-- Result -->
 		<div class="results">
-			{% if prediction>=0.5 %}
+			{% if prediction==0 %}
 				<h1>Prediction: <span class='danger'>Customer will default!!! </span></h1>
 				<img class="gif" src="{{ url_for('static', filename='def.webp') }}" alt="Diabetes Image">
-			{% elif prediction<0.5 %}
+			{% elif prediction==1 %}
 				<h1>Prediction: <span class='safe'>Customer will pay.</span></h1>
 				<img class="gif1" src="{{ url_for('static', filename='nodef.webp') }}" alt="Not Diabetes Image">
 			{% endif %}
