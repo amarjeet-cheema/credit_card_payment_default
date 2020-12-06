@@ -25,7 +25,7 @@ def predict():
         
         data = np.array([[LIMIT_BAL, SEX, EDUCATION, PAY_1, PAY_AMT1, BILL_AMT1]])
         my_prediction = classifier.predict(data)
-        
+        print(my_prediction)
         return render_template('result.html', prediction=my_prediction)
 
 if __name__ == '__main__':
