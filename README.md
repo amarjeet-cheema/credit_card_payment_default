@@ -1,4 +1,4 @@
-# Credit Card Next Payment Prediction - Deployment
+# Credit Card Next Payment Default Prediction
 
 
 • If you want to view the deployed model, click on the following link:<br />
